@@ -1,25 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Header from '../components/Header';
 
 function App() {
-  const [count, setCount] = useState(1)
-
-  return (
-    <>
-      <div>
-        <h1>Hello world</h1>
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        
-      </div>
-      
-    </>
-  )
+    return (
+        <div className="App">
+            <Header />
+            {/* Other components */}
+        </div>
+    );
 }
 
-export default App
+export default App;

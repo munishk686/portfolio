@@ -1,6 +1,36 @@
+
+
 .circle-image {
   width: 250px; 
     height: 250px; 
     border-radius: 50%;
     object-fit: cover;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.font h1, p {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+color: #4b0082; /* Indigo */
+}
+.wave {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 300px;
+
+}
+
+.svg-wave {
+  width: 100%;
+  height: auto;
+
+}
+.secound {
+  background-color: #ced1ba;
+}
+.text-center{
+  margin-bottom: 50px;
 }

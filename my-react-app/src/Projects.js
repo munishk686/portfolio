@@ -1,0 +1,42 @@
+const projects = [
+    {
+        id: 1,
+        name: "Project 1",
+        description: "This is a project 1",
+        image: "./public/photo.jpg",
+        link: "https://www.google.com",
+        git: "https://www.github.com",
+    },
+    {
+        id: 2,
+        name: "Project 2",
+        description: "This is a project 2",
+        image: "./public/photo.jpg",
+        link: "https://www.google.com",
+        git: "https://www.github.com",
+    },
+    {
+        id: 3,
+        name: "Project 3",
+        description: "This is a project 3",
+        image: "./public/photo.jpg",
+        link: "https://www.google.com",
+        git: "https://www.github.com",
+    },
+    {
+        id: 4,
+        name: "Project 4",
+        description: "This is a project 4",
+        image: "./public/photo.jpg",
+        link: "https://www.google.com",
+        git: "https://www.github.com",
+    },
+    {
+        id: 5,
+        name: "Project 5",
+        description: "This is a project 5",
+        image: "./public/photo.jpg",
+        link: "https://www.google.com",
+        git: "https://www.github.com",
+    },
+]

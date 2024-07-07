@@ -9,7 +9,7 @@
     margin-top: 20px;
 }
 
-.font h1, p {
+.font h1 {
   font-family: "Playwrite IT Moderna", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -33,4 +33,25 @@ color: #4b0082; /* Indigo */
 }
 .text-center{
   margin-bottom: 50px;
+}
+
+.font p {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #4b0082; /* Indigo */
+}
+.about-h1 {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #4b0082; /* Indigo */
+  margin-top: 50PX;
+  margin-bottom: 50px;
+}
+h4 {
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
 }

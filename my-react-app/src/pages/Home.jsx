@@ -24,14 +24,12 @@ function Home() {
                     <Card
                         title="Project 1"
                         description="This is a project 1"
-                        image="/photo.jpg"
                         link="https://www.google.com"
                         git="https://www.github.com"
                     />
                     <Card
                         title="Project 2"
                         description="This is a project 2"
-                        image="/photo.jpg"
                         link="https://www.google.com"
                         git="https://www.github.com"
                     />

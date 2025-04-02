@@ -20,7 +20,7 @@ function Header() {
                             <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Mk-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+                            <a className="nav-link" href="/CVandCoverLetter.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
                         </li>
                     </ul>
                 </div>

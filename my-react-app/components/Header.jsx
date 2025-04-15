@@ -9,9 +9,21 @@ function Header() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
+                    <Link className="navbar-brand" to="/">Munish Kumar</Link>
+
+                    <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about">Experence</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about">Skills</Link>
+                        </li>
+                        
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about">Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">About</Link>

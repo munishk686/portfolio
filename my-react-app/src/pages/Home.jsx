@@ -5,7 +5,7 @@ function Home() {
         <div>
             <div className="row align-items-center secound">
                 <div className="col-md-4">
-                    <img src="/public/photo.jpg" alt="photo" className='img-fluid circle-image' />
+                    <img src="/photo.jpg" alt="photo" className='img-fluid circle-image' />
                 </div>
                 <div className="col-md-8 font ">
                     <p>Hi There!</p>
@@ -24,14 +24,12 @@ function Home() {
                     <Card
                         title="Project 1"
                         description="This is a project 1"
-                        image="/public/photo.jpg"
                         link="https://www.google.com"
                         git="https://www.github.com"
                     />
                     <Card
                         title="Project 2"
                         description="This is a project 2"
-                        image="/public/photo.jpg"
                         link="https://www.google.com"
                         git="https://www.github.com"
                     />

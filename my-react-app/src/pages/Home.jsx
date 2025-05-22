@@ -11,7 +11,24 @@ function Home() {
                     <p>Hi There!</p>
                     <h1>I am a Software Developer</h1>
                     <p>I make the complex simple.</p>
+                    <a
+  href="/CV.pdf"
+  download
+  className="btn btn-primary px-3 py-1 d-flex align-items-center gap-1"
+  style={{ fontSize: '0.9rem' }}
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/16/724/724933.png"
+    alt="Download Arrow"
+    width="14"
+    height="14"
+  />
+  Download
+</a>
+
+
                 </div>
+                
             </div>
             <div className="wave">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="svg-wave">

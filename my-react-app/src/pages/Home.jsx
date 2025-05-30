@@ -8,26 +8,26 @@ function Home() {
                     <img src="/photo.jpg" alt="photo" className='img-fluid circle-image' />
                 </div>
                 <div className="col-md-8 font ">
-                    <p>Hi There!</p>
-                    <h1>I am a Software Developer</h1>
-                    <p>I make the complex simple.</p>
+                    <h1>Munish Kumar</h1>
+                    <h3>Software Developer</h3>
+                    <p>Proficient in modern web development using React, Next.js, Node.js, and AWS.</p>
+                    <p>Experienced in building scalable applications, improving performance, and solving</p>
+                    <p>complex technical problems with clean, efficient code.</p>
                     <a
-  href="/CV.pdf"
-  download
-  className="btn btn-primary px-3 py-1 d-flex align-items-center gap-1"
-  style={{ fontSize: '0.9rem' }}
->
-  <img
-    src="https://cdn-icons-png.flaticon.com/16/724/724933.png"
-    alt="Download Arrow"
-    width="14"
-    height="14"
-  />
-  Download
-</a>
-
-
-                </div>
+                    href="/CV.pdf"
+                    download
+                    className="btn btn-primary"
+                    style={{ fontSize: '0.9rem' }}
+                    >
+                    <img
+                        src="https://cdn-icons-png.flaticon.com/16/724/724933.png"
+                        alt="Download Arrow"
+                        width="14"
+                        height="14"
+                    />
+                    Download
+                    </a>
+               </div>
                 
             </div>
             <div className="wave">

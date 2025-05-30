@@ -14,7 +14,7 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-color: #4b0082; /* Indigo */
+color: #0a0a0a; /* Indigo */
 }
 .wave {
   width: 100%;
@@ -40,7 +40,7 @@ color: #4b0082; /* Indigo */
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  color: #4b0082; /* Indigo */
+  color: #0a0a0a; /* Indigo */
 }
 .about-h1 {
   font-family: "Playwrite IT Moderna", cursive;
@@ -54,4 +54,15 @@ color: #4b0082; /* Indigo */
 h4 {
   font-size: 25px;
   font-family:'Times New Roman', Times, serif;
+}
+h3  {
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  color: #0918e2d5; /* Indigo */
+}
+.App {
+  container: center;
+  text-align: center;
+  
+
 }

@@ -13,23 +13,26 @@ function Header() {
 
                     <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
                         <li className="nav-item">
-                            <Link className="nav-link active fw-bold" aria-current="page" to="/">Home</Link>
+                            <a className="nav-link active fw-bold" href="#home">Home</a>
+                        </li>
+                         <li className="nav-item">
+                            <a className="nav-link active fw-bold" href="#education">Education</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active fw-bold" to="/about">Experence</Link>
+                            <a className="nav-link active fw-bold" href="#experience">Experience</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active fw-bold" to="/about">Skills</Link>
+                            <a className="nav-link active fw-bold" href="#skills">Skills</a>
                         </li>
                         
                         <li className="nav-item">
-                            <Link className="nav-link active fw-bold" to="/about">Portfolio</Link>
+                            <a className="nav-link active fw-bold" href="#portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active fw-bold" to="/about">About</Link>
+                            <a className="nav-link active fw-bold" href="#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active fw-bold" to="/contact">Contact</Link>
+                            <a className="nav-link active fw-bold" href="#contact">Contact</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active fw-bold" href="/CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>

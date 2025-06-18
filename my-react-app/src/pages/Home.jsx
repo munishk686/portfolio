@@ -3,6 +3,7 @@ import Card from "../../components/Card";
 function Home() {
     return (
         <div>
+            <section id="home">Your experience content here
             <div className="row align-items-center secound">
                 <div className="col-md-4">
                     <img src="/photo.jpg" alt="photo" className='img-fluid circle-image' />
@@ -25,7 +26,7 @@ function Home() {
                         width="14"
                         height="14"
                     />
-                    Download
+                    Download CV
                     </a>
                </div>
                 
@@ -36,6 +37,7 @@ function Home() {
                 </svg>
             </div>
             <div>
+                <section id="portfolio">Your portfolio content here
                 <h1 className="text-center">Projects</h1>
                 <div className="row">
                     <Card
@@ -51,9 +53,18 @@ function Home() {
                         git="https://www.github.com"
                     />
                 </div>
+                </section>
             </div>
+         </section>
+            <section id="experience">Your experience content here</section>
+            <section id="skills">Your skills content here</section>
+            <section id="about">Your about content here</section>
+            <section id="contact">Your contact content here</section>
         </div>
+
+        
     );
+    
 }
 
 export default Home;

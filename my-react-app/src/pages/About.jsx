@@ -1,25 +1,22 @@
-import React from "react";
-
 function About() {
     return (
-        <div className="container">
-            <h1 className="about-h1">About Me</h1>
-            <h4>
-                Kia ora! I'm Munish, a dedicated and passionate Software Development student at AUT, nearing the completion of my Bachelor of Computer and Information Science. With my core and major papers finished, I'm currently focusing on my elective courses.
-
-                <br />I bring a unique blend of experience to the table, having worked as a bus driver for 21 years. This role has developed my skills in reliability, time management, and customer service. Now, I'm excited to switch careers and dive into the world of software development.
-
-                <br />In my spare time, I enjoy learning new programming languages, building projects, and exploring innovative tech solutions. I'm eager to contribute my skills and experience to a dynamic team in the tech industry.
-
-                <br />Feel free to explore my portfolio and see the projects I've been working on. I'm always open to new opportunities and connections.
-                <br /> <br />
-                Ngā mihi, <br />
-                Munish
-
-
-            </h4>
-        </div>
+        <section id="about" className="my-5 px-5">
+            <h2 className="text-center mb-4">About Me</h2>
+            <div className="row g-4">
+                <div className="col-md-6">
+                    <p className="text-start">
+                        I am a passionate software developer with a keen interest in creating innovative solutions. 
+                        My journey in technology began with a fascination for how things work, leading me to pursue a career in software development.
+                    </p>
+                </div>
+                <div className="col-md-6">
+                    <p className="text-start">
+                        I enjoy tackling complex problems and continuously learning new technologies. 
+                        In my free time, I love contributing to open-source projects and exploring the latest trends in the tech industry.
+                    </p>
+                </div>
+            </div>
+        </section>
     );
-}
-
+}   
 export default About;

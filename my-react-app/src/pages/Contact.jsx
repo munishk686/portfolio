@@ -1,24 +1,29 @@
-import React from 'react';
-import './Contact.css'; // Make sure to import the CSS file
-
 function Contact() {
     return (
-        <div className="container">
-            <h1 className="contact-title">Contact Me</h1> 
-
-            <div className="contact-info">
-                <p>Email: <a href="mailto:munishk686@gmail.com">munishk686@gmail.com</a></p>
-                <p>Phone: 0272553457</p>
+        <section id="contact" className="my-5 px-5">
+            <h2 className="text-center mb-4">Contact</h2>
+            <div className="row g-4">
+                <div className="col-md-6">
+                    <div className="card h-100 w-100 p-3 shadow">
+                        <h5 className="text-start">Email</h5>
+                        <p className="text-start">
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="card h-100 w-100 p-3 shadow">
+                        <h5 className="text-start">LinkedIn</h5>
+                        <p className="text-start">
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                                linkedin.com/in/yourprofile
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <h2 className="follow-title">Follow Me</h2>
-            <ul className="social-links">
-                <li><a href="https://www.linkedin.com/in/munishk686" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="https://github.com/munishk686/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            </ul>
-        </div>
+        </section>
     );
 }
 
-export default Contact;
+export default Contact;                  

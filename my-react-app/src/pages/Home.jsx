@@ -1,5 +1,10 @@
 import Card from "../../components/Card";
+import About from "./About";
+import Contact from "./Contact";
 import Education from './Education';
+import Experience from "./Experience";
+import Portfolio from "./Portfolio";
+import Skills from "./Skills";
 
 function Home() {
     return (
@@ -58,19 +63,21 @@ function Home() {
             {/* home section ends here */}
 
             {/* education section start here */}
-                <h1 className="text-center">Education</h1>
-                <Education />
-
+            <Education />
             {/* education section ends here */}
 
             {/* experience section start here */}
-            <section id="experience">Your experience content here</section>
+            <Experience />
             {/* experience section ends here */}
 
-            {/* portfolio section start here */}
+            {/* skills section start here */}
+            <Skills />
+            {/* skills section ends here */}
+
+            {/* Portfolio section start here */}
+            <Portfolio />
             <div>
                 <section id="portfolio">
-                    Your portfolio content here
                     <h1 className="text-center">Projects</h1>
                     <div className="row">
                         <Card
@@ -88,11 +95,17 @@ function Home() {
                     </div>
                 </section>
             </div>
-            {/* experience section ends here */}
+            {/* Portfolio section ends here */}
 
-            <section id="skills">Your skills content here</section>
-            <section id="about">Your about content here</section>
-            <section id="contact">Your contact content here</section>
+            {/* About section start here */}
+            <About />
+            {/* About section ends here */}
+
+            {/* Contact section start here */}
+            <Contact />
+            {/* Contact section ends here */}
+
+
         </div>
     );
 }

@@ -13,7 +13,6 @@
   font-family: Arial, sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
 color: #0a0a0a; /* Indigo */
 }
 .wave {
@@ -38,7 +37,9 @@ color: #0a0a0a; /* Indigo */
 .font p {
   font-family: Arial, sans-serif;
   font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
+  color: #0a0a0a; /* Indigo */
 }
 .about-h1 {
   font-family: Arial, sans-serif;
@@ -50,13 +51,11 @@ color: #0a0a0a; /* Indigo */
   margin-bottom: 50px;
 }
 h4 {
-  font-size: 25px;
   font-family: Arial, sans-serif;
+    color: #0918e2d5; /* Indigo */
 }
 h3  {
-  font-size: 25px;
   font-family: Arial, sans-serif;
-  color: #0918e2d5; /* Indigo */
 }
 .App {
   text-align: center;

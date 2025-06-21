@@ -20,7 +20,7 @@ function Home() {
                     </div>
                     <div className="col-md-8 font ">
                         <h1>Munish Kumar</h1>
-                        <h3>Software Developer</h3>
+                        <h4>Software Developer</h4>
                         <p>
                             Proficient in modern web development using React, Next.js,
                             Node.js, and AWS.

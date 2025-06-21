@@ -61,9 +61,18 @@ h3  {
   color: #0918e2d5; /* Indigo */
 }
 .App {
-  container: center;
   text-align: center;
 }
 html {
   scroll-behavior: smooth;
+}
+ul {
+  list-style-position: inside; /* Moves the bullet closer to text */
+  padding-left: 0.1rem; /* Adds left padding */
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem; /* Tight spacing between list items */
+  text-align: left; /* Ensures clean alignment */
 }

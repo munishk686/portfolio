@@ -13,7 +13,7 @@ function Home() {
                 <div className="row align-items-center secound">
                     <div className="col-md-4">
                         <img
-                            src="/photo.jpg"
+                            src="/images/photo.jpg"
                             alt="photo"
                             className="img-fluid circle-image"
                         />

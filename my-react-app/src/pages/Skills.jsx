@@ -6,8 +6,25 @@ function Skills() {
                 {/* Card 1 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start">Programming Languages</h5>
-                        <p className="text-start">JavaScript, Python, Java, C++, C#, SQL</p>
+                        <h5 className="text-start"><strong>Programming Languages</strong></h5>
+                        <p className="text-start">
+                        <img src="/images/javascript.png" alt="JavaScript" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                        <strong>JavaScript</strong></p>
+                        <p className="text-start">
+                        <img src="/images/python.png" alt="Python" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                        <strong>Python</strong></p>
+                        <p className="text-start">
+                       <img src="/images/java.png" alt="Java" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                        <strong>Java</strong></p>
+                        <p className="text-start">
+                        <img src="/images/c.png" alt="C" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                        <strong>C</strong></p>
+                        <p className="text-start">
+                         <img src="/images/c-sharp.png" alt="C-sharp" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                        <strong>C#</strong></p>
+                        <p className="text-start">
+                        <img src="/images/sql.png" alt="Sql" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                        <strong>SQL</strong></p>
                     </div>
                 </div>
 
@@ -37,5 +54,5 @@ function Skills() {
             </div>
         </section>
     );
-}   
+}
 export default Skills;

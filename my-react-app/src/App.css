@@ -73,3 +73,11 @@ li {
   margin-bottom: 0.5rem; /* Tight spacing between list items */
   text-align: left; /* Ensures clean alignment */
 }
+.hover-pop {
+  transition: transform 0.3s ease;
+}
+
+.hover-pop:hover {
+  transform: scale(1.05);
+}
+

@@ -6,8 +6,13 @@ function Portfolio() {
                 {/* Card 1 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
-                        <img src="/images/project1.png" className="card-img-top" alt="Project 1" />
-                        <div className="card-body">
+                        <img
+                            src="/images/photo.jpg"
+                            className="card-img-top hover-pop"
+                            alt="Project One"
+                            style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+                        />
+                        <div className="card-body text-start">
                             <h5 className="card-title">Project One</h5>
                             <p className="card-text">Description of project one.</p>
                             <a href="#" className="btn btn-primary">View Project</a>
@@ -15,13 +20,19 @@ function Portfolio() {
                     </div>
                 </div>
 
+
                 {/* Card 2 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
-                        <img src="/images/project2.png" className="card-img-top" alt="Project 2" />
-                        <div className="card-body">
-                            <h5 className="card-title">Project Two</h5>
-                            <p className="card-text">Description of project two.</p>
+                        <img
+                            src="/images/photo.jpg"
+                            className="card-img-top hover-pop"
+                            alt="Project One"
+                            style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+                        />
+                        <div className="card-body text-start">
+                            <h5 className="card-title">Project One</h5>
+                            <p className="card-text">Description of project one.</p>
                             <a href="#" className="btn btn-primary">View Project</a>
                         </div>
                     </div>
@@ -30,10 +41,47 @@ function Portfolio() {
                 {/* Card 3 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
-                        <img src="/images/project3.png" className="card-img-top" alt="Project 3" />
-                        <div className="card-body">
-                            <h5 className="card-title">Project Three</h5>
-                            <p className="card-text">Description of project three.</p>
+                        <img
+                            src="/images/photo.jpg"
+                            className="card-img-top hover-pop"
+                            alt="Project One"
+                            style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+                        />
+                        <div className="card-body text-start">
+                            <h5 className="card-title">Project One</h5>
+                            <p className="card-text">Description of project one.</p>
+                            <a href="#" className="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                {/* Card 4 */}
+                <div className="col-md-4">
+                    <div className="card h-100 shadow">
+                        <img
+                            src="/images/photo.jpg"
+                            className="card-img-top hover-pop"
+                            alt="Project One"
+                            style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+                        />
+                        <div className="card-body text-start">
+                            <h5 className="card-title">Project One</h5>
+                            <p className="card-text">Description of project one.</p>
+                            <a href="#" className="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                {/* Card 5 */}
+                <div className="col-md-4">
+                    <div className="card h-100 shadow">
+                        <img
+                            src="/images/photo.jpg"
+                            className="card-img-top hover-pop"
+                            alt="Project One"
+                            style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+                        />
+                        <div className="card-body text-start">
+                            <h5 className="card-title">Project One</h5>
+                            <p className="card-text">Description of project one.</p>
                             <a href="#" className="btn btn-primary">View Project</a>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ function Skills() {
                 {/* Card 1 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start"><strong>Programming Languages</strong></h5>
+                        <h5 className="text-start font-colour text-center"><strong>Programming Languages</strong></h5>
                         <p className="text-start">
                             <img src="/images/javascript.png" alt="JavaScript" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
                             <strong>JavaScript</strong></p>
@@ -34,7 +34,7 @@ function Skills() {
                 {/* Card 2 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start"><strong>Web Development</strong></h5>
+                        <h5 className="text-start font-colour text-center"><strong>Web Development</strong></h5>
                         <p className="text-start">
                             <img src="/images/html.png" alt="Html" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
                             <strong>HTML</strong></p>
@@ -59,7 +59,7 @@ function Skills() {
                 {/* Card 3 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start"><strong>Databases</strong></h5>
+                        <h5 className="text-start font-colour text-center"><strong>Databases</strong></h5>
                         <p className="text-start">
                             <img src="/images/mysql.png" alt="Mysql" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
                             <strong>MySQL</strong></p>
@@ -75,7 +75,7 @@ function Skills() {
                 {/* Card 4 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start"><strong>Tools & Technologies</strong></h5>
+                        <h5 className="text-start font-colour text-center"><strong>Tools & Technologies</strong></h5>
                         <p className="text-start">
                             <img src="/images/git.png" alt="Git" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
                             <strong>Git</strong></p>

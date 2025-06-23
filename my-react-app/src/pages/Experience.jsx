@@ -6,7 +6,13 @@ function Experience() {
                 {/* Card 1 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start">2003 - Present</h5>
+                        <h5 className="text-start">
+                            <span className="text-white px-3 py-1 rounded-pill d-inline-block"
+                                style={{ backgroundColor: "#007BFF" }}>
+                                2003 - Present
+                            </span>
+
+                        </h5>
                         <h5 className="text-start text-wrap" style={{ wordBreak: "break-word" }}>
                             <strong>Bus Driver</strong>
                         </h5>
@@ -23,7 +29,12 @@ function Experience() {
                 {/* Card 2 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start">2023 - 2024</h5>
+                        <h5 className="text-start">
+                            <span className="text-white px-3 py-1 rounded-pill d-inline-block"
+                                style={{ backgroundColor: "#007BFF" }}>
+                                2023 - 2024
+                            </span>
+                        </h5>
                         <h5 className="text-start text-wrap" style={{ wordBreak: "break-word" }}>
                             <strong>Front End Developer</strong>
                         </h5>

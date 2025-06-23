@@ -13,9 +13,11 @@ function Portfolio() {
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
                         />
                         <div className="card-body text-start">
-                            <h5 className="card-title">Project One</h5>
-                            <p className="card-text">Description of project one.</p>
-                            <a href="#" className="btn btn-primary">View Project</a>
+                            <h5 className="card-title">IoT Adroit Frontend Manager</h5>
+                            <p className="card-text font-colour">React, Next JS, AWS, GitHub</p>
+                            <p className="card-text">Developed and optimized a web application for R&D,
+to monitor the status and battery health of IoT devices.</p>
+                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>

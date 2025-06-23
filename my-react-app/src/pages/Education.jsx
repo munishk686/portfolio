@@ -8,8 +8,13 @@ function Education() {
                 {/* Card 1 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        
-                        <h5 className="text-start">2025</h5>
+
+                        <h5 className="text-start">
+                            <span className="text-white px-3 py-1 rounded-pill d-inline-block"
+                                style={{ backgroundColor: "#007BFF" }}>
+                                2025
+                            </span>
+                        </h5> 
                         <h5 className="text-start text-wrap" style={{ wordBreak: "break-word" }}>
                             Bachelor of Computer and Information Sciences
                         </h5>
@@ -25,7 +30,12 @@ function Education() {
                 {/* Card 2 */}
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start">2005</h5>
+                        <h5 className="text-start">
+                            <span className="text-white px-3 py-1 rounded-pill d-inline-block"
+                                style={{ backgroundColor: "#007BFF" }}>
+                                2005
+                            </span>
+                        </h5>  
                         <h5 className="text-start text-wrap" style={{ wordBreak: "break-word" }}>
                             Certificate in Computing
                         </h5>

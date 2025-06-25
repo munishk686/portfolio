@@ -21,8 +21,6 @@ to monitor the status and battery health of IoT devices.</p>
                         </div>
                     </div>
                 </div>
-
-
                 {/* Card 2 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
@@ -33,13 +31,13 @@ to monitor the status and battery health of IoT devices.</p>
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
                         />
                         <div className="card-body text-start">
-                            <h5 className="card-title">Project One</h5>
-                            <p className="card-text">Description of project one.</p>
-                            <a href="#" className="btn btn-primary">View Project</a>
+                            <h5 className="card-title">CISE React Book List App</h5>
+                            <p className="card-text font-colour">MongoDB, Express.js, React, Node.js.</p>
+                            <p className="card-text">Developed MERN app with secure user login where Users could add, sort, and fetch book data.</p>
+                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>
-
                 {/* Card 3 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
@@ -50,9 +48,10 @@ to monitor the status and battery health of IoT devices.</p>
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
                         />
                         <div className="card-body text-start">
-                            <h5 className="card-title">Project One</h5>
-                            <p className="card-text">Description of project one.</p>
-                            <a href="#" className="btn btn-primary">View Project</a>
+                            <h5 className="card-title">Multiplayer Online Shooting Game</h5>
+                            <p className="card-text font-colour"> Unity engine, C#, Firebase</p>
+                            <p className="card-text">Created custom game assets and real-time scoreboard.</p>
+                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -66,9 +65,10 @@ to monitor the status and battery health of IoT devices.</p>
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
                         />
                         <div className="card-body text-start">
-                            <h5 className="card-title">Project One</h5>
-                            <p className="card-text">Description of project one.</p>
-                            <a href="#" className="btn btn-primary">View Project</a>
+                            <h5 className="card-title">CabsOnline Taxi Booking System</h5>
+                            <p className="card-text font-colour">PHP, MySQL, JavaScript, CSS, Ajax</p>
+                            <p className="card-text">Developed a web-based real-time taxi booking system with responsive UI.</p>
+                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -82,9 +82,10 @@ to monitor the status and battery health of IoT devices.</p>
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
                         />
                         <div className="card-body text-start">
-                            <h5 className="card-title">Project One</h5>
-                            <p className="card-text">Description of project one.</p>
-                            <a href="#" className="btn btn-primary">View Project</a>
+                            <h5 className="card-title">Social Diary System</h5>
+                            <p className="card-text font-colour">HTML, PHP, MySQL, CSS</p>
+                            <p className="card-text">Created a status posting and retrieval system for a social networking site.</p>
+                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>

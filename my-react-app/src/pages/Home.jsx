@@ -1,4 +1,3 @@
-import Card from "../../components/Card";
 import About from "./About";
 import Contact from "./Contact";
 import Education from './Education';
@@ -76,25 +75,6 @@ function Home() {
 
             {/* Portfolio section start here */}
             <Portfolio />
-            <div>
-                <section id="portfolio">
-                    <h1 className="text-center">Projects</h1>
-                    <div className="row">
-                        <Card
-                            title="Project 1"
-                            description="This is a project 1"
-                            link="https://www.google.com"
-                            git="https://www.github.com"
-                        />
-                        <Card
-                            title="Project 2"
-                            description="This is a project 2"
-                            link="https://www.google.com"
-                            git="https://www.github.com"
-                        />
-                    </div>
-                </section>
-            </div>
             {/* Portfolio section ends here */}
 
             {/* About section start here */}

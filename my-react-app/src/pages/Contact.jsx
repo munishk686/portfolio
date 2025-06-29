@@ -10,7 +10,7 @@ function Contact() {
                         <h5 className="text-start font-colour mx-3">Get in Touch</h5>
                         <div className="my-4 mx-3">
                             {/* Location */}
-                            <div className="d-flex mb-3">
+                            <div className="d-flex align-items-center mb-3">
                                 <div className="rounded-circle d-flex justify-content-center align-items-center" style={{ backgroundColor: '#007BFF', width: '45px', height: '45px' }}>
                                     <i className="bi bi-geo-alt-fill text-white fs-4"></i>
                                 </div>

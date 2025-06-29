@@ -1,3 +1,5 @@
+import HowCanIHelp from "./HowCanIHelp";
+
 function Contact() {
     return (
         <section id="contact" className="my-5 px-5">
@@ -77,8 +79,7 @@ function Contact() {
                 </div>
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start font-colour mx-3">How Can I Help You</h5>
-                        
+                        <HowCanIHelp />
                     </div>
                 </div>
             </div>

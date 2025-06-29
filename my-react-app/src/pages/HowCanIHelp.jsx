@@ -1,8 +1,8 @@
 function HowCanIHelp() {
   return (
     <div>
-        <h5 className="text-start font-colour mx-3">How Can I Help You?</h5>
-        <form className="my-4 mx-3">
+        <h5 className="text-start font-colour mx-2">How Can I Help You?</h5>
+        <form className="my-4 mx-2">
             <div className="mb-3 text-start">
                 <label htmlFor="name" className="form-label">Full Name</label>
                 <input type="text" className="form-control" id="name"  required />

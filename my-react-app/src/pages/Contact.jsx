@@ -7,8 +7,8 @@ function Contact() {
             <div className="row g-4">
                 <div className="col-md-6">
                     <div className="card h-100 w-100 p-3 shadow">
-                        <h5 className="text-start font-colour mx-3">Get in Touch</h5>
-                        <div className="my-4 mx-3">
+                        <h5 className="text-start font-colour mx-2">Get in Touch</h5>
+                        <div className="my-4 mx-2">
                             {/* Location */}
                             <div className="d-flex align-items-center mb-3">
                                 <div className="rounded-circle d-flex justify-content-center align-items-center" style={{ backgroundColor: '#007BFF', width: '45px', height: '45px' }}>

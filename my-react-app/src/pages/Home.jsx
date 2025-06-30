@@ -2,6 +2,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Education from './Education';
 import Experience from "./Experience";
+import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 
@@ -85,6 +86,9 @@ function Home() {
             <Contact />
             {/* Contact section ends here */}
 
+            {/* Footer section start here */}
+            <Footer />
+            {/* Footer section ends here */}
 
         </div>
     );

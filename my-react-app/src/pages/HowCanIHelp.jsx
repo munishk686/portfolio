@@ -20,19 +20,19 @@ function HowCanIHelp() {
         <form ref={form} onSubmit={sendEmail} className="my-4 mx-2">
             <div className="mb-3 text-start">
                 <label htmlFor="name" className="form-label">Full Name</label>
-                <input type="text" className="form-control" id="name"  required />
+                <input type="text" className="form-control" id="name" name="name" required />
             </div>
             <div className="mb-3 text-start">
                 <label htmlFor="email" className="form-label">Email Address</label>
-                <input type="email" className="form-control" id="email"  required />
+                <input type="email" className="form-control" id="email" name="email" required />
             </div>
             <div className="mb-3 text-start">
                 <label htmlFor="subject" className="form-label">Subject</label>
-                <input type="subject" className="form-control" id="subject"  required />
+                <input type="text" className="form-control" id="subject" name="subject" required />
             </div>
             <div className="mb-3 text-start">
                 <label htmlFor="message" className="form-label">Message</label>
-                <textarea className="form-control" id="message" rows="4" required></textarea>
+                <textarea className="form-control" id="message" rows="4" name="message" required></textarea>
             </div>
             <div className="mb-3 text-start">
             <button type="submit" className="btn btn-primary">Send Message</button> 

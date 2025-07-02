@@ -7,7 +7,6 @@ function Portfolio() {
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
-                            src="/images/photo.jpg"
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
@@ -25,7 +24,6 @@ to monitor the status and battery health of IoT devices.</p>
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
-                            src="/images/photo.jpg"
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
@@ -42,7 +40,6 @@ to monitor the status and battery health of IoT devices.</p>
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
-                            src="/images/photo.jpg"
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
@@ -59,7 +56,6 @@ to monitor the status and battery health of IoT devices.</p>
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
-                            src="/images/photo.jpg"
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
@@ -76,7 +72,6 @@ to monitor the status and battery health of IoT devices.</p>
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
-                            src="/images/photo.jpg"
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}

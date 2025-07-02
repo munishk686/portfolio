@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Education() {
     return (
@@ -42,7 +41,7 @@ function Education() {
                         <h6 className="text-start mb-1">Te Wananga o Aotearoa</h6>
                         <p className="text-start">
                             Introduction to computing, and microsoft office to prepare for
-                            further study at the bachelor's level.
+                            further study at the bachelor level.
                         </p>
                     </div>
                 </div>

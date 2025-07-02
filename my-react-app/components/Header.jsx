@@ -8,7 +8,7 @@ function Header() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <a className="navbar-brand fw-bold text-primary" to="/">Munish Kumar</a>
+                    <a className="navbar-brand fw-bold text-primary" href="home">Munish Kumar</a>
 
                     <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
                         <li className="nav-item">

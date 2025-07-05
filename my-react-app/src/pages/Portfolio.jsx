@@ -7,6 +7,7 @@ function Portfolio() {
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
+                            src="/images/adroit2.png" // Replace with actual image path
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
@@ -16,7 +17,7 @@ function Portfolio() {
                             <p className="card-text font-colour">React, Next JS, AWS, GitHub</p>
                             <p className="card-text">Developed and optimized a web application for R&D,
 to monitor the status and battery health of IoT devices.</p>
-                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
+                            <a href="https://github.com/munishk686/Adroit-Frontend-Manager" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -24,6 +25,7 @@ to monitor the status and battery health of IoT devices.</p>
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
+                            src="/images/CISA.jpg" 
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
@@ -32,7 +34,7 @@ to monitor the status and battery health of IoT devices.</p>
                             <h5 className="card-title">CISE React Book List App</h5>
                             <p className="card-text font-colour">MongoDB, Express.js, React, Node.js.</p>
                             <p className="card-text">Developed MERN app with secure user login where Users could add, sort, and fetch book data.</p>
-                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
+                            <a href="https://github.com/munishk686/CISE_React_book" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>

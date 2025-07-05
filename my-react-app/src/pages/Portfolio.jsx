@@ -42,7 +42,7 @@ function Portfolio() {
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <video width="400" height="230" controls>
-                            <source src="/images/UnityVideo.mp4" type="video/mp4" />
+                            <source src="/videos/UnityVideo.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 

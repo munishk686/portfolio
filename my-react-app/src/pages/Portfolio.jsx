@@ -16,7 +16,7 @@ function Portfolio() {
                             <h5 className="card-title">IoT Adroit Frontend Manager</h5>
                             <p className="card-text font-colour">React, Next JS, AWS, GitHub</p>
                             <p className="card-text">Developed and optimized a web application for R&D,
-to monitor the status and battery health of IoT devices.</p>
+                                to monitor the status and battery health of IoT devices.</p>
                             <a href="https://github.com/munishk686/Adroit-Frontend-Manager" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ to monitor the status and battery health of IoT devices.</p>
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
-                            src="/images/CISA.jpg" 
+                            src="/images/CISA.jpg"
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
@@ -41,11 +41,11 @@ to monitor the status and battery health of IoT devices.</p>
                 {/* Card 3 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
-                        <img
-                            className="card-img-top hover-pop"
-                            alt="Project One"
-                            style={{ width: '100%', height: '250px', objectFit: 'cover' }}
-                        />
+                        <video width="400" height="230" controls>
+                            <source src="/images/UnityVideo.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+
                         <div className="card-body text-start">
                             <h5 className="card-title">Multiplayer Online Shooting Game</h5>
                             <p className="card-text font-colour"> Unity engine, C#, Firebase</p>

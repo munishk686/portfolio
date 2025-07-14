@@ -41,16 +41,17 @@ function Portfolio() {
                 {/* Card 3 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
-                        <video width="400" height="230" controls>
-                            <source src="/videos/UnityVideo.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-
+                        <img
+                            src="/images/unity.png"
+                            className="card-img-top hover-pop"
+                            alt="Project One"
+                            style={{ width: '100%', height: '250px', objectFit: 'cover' }}
+                        />
                         <div className="card-body text-start">
                             <h5 className="card-title">Multiplayer Online Shooting Game</h5>
                             <p className="card-text font-colour"> Unity engine, C#, Firebase</p>
                             <p className="card-text">Created custom game assets and real-time scoreboard.</p>
-                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
+                            <a href="https://github.com/munishk686/COMP602_1_OrangeKoch" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>

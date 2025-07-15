@@ -37,9 +37,9 @@ color: #0a0a0a; /* Indigo */
 .font p {
   font-family: Arial, sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
-  color: #0a0a0a; /* Indigo */
+  color: #0a0a0a;
 }
 .about-h1 {
   font-family: Arial, sans-serif;

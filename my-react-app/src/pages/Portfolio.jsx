@@ -59,15 +59,16 @@ function Portfolio() {
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
+                        src="/images/cabsOnline.png"
                             className="card-img-top hover-pop"
                             alt="Project One"
                             style={{ width: '100%', height: '250px', objectFit: 'cover' }}
                         />
                         <div className="card-body text-start">
-                            <h5 className="card-title">CabsOnline Taxi Booking System</h5>
+                            <h5 className="card-title">Cabs Online Booking</h5>
                             <p className="card-text font-colour">PHP, MySQL, JavaScript, CSS, Ajax</p>
                             <p className="card-text">Developed a web-based real-time taxi booking system with responsive UI.</p>
-                            <a href="#" className="btn btn-primary btn-custom">View Project</a>
+                            <a href="https://github.com/munishk686/cabsOnlineBooking" className="btn btn-primary btn-custom">View Project</a>
                         </div>
                     </div>
                 </div>

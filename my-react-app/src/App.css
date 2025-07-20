@@ -1,4 +1,6 @@
-
+.header {
+  padding-top: 70px;
+}
 
 .circle-image {
   width: 250px; 
@@ -25,10 +27,9 @@ color: #0a0a0a; /* Indigo */
 .svg-wave {
   width: 100%;
   height: auto;
-
 }
 .secound {
-  background-color: #ced1ba;
+  background-color: #D7D7D7;
 }
 .text-center{
   margin-bottom: 30px;

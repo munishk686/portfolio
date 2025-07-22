@@ -84,7 +84,40 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
+                
                 {/* Card 4 */}
+                <div className="col-md-4">
+                    <div className="card h-100 shadow">
+                        <img
+                            src="/images/javaProject.png"
+                            className="card-img-top hover-pop"
+                            alt="Project One"
+                            style={{
+                                width: "100%",
+                                height: "250px",
+                                objectFit: "contain",
+                                background: "#f8f9fa",
+                            }}
+                        />
+
+                        <div className="card-body text-start">
+                            <h5 className="card-title">Online Shooping System</h5>
+                            <p className="card-text font-colour">
+                                Java, Apache Derby (embedded database), and Apache Ant
+                            </p>
+                            <p className="card-text">
+                                Developed an online shopping software that stores items in a cart and processes payments with a responsive UI.
+                            </p>
+                            <a
+                                href="https://github.com/munishk686/JavaFinalProject"
+                                className="btn btn-primary btn-custom"
+                            >
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/* Card 5 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img
@@ -118,7 +151,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-                {/* Card 5 */}
+                {/* Card 6 */}
                 <div className="col-md-4">
                     <div className="card h-100 shadow">
                         <img

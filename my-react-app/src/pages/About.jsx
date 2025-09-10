@@ -4,10 +4,18 @@ function About() {
       <div className="container px-5">
         <h2 className="text-center mb-4">About Me</h2>
         <p className="text-start">
-          I am a passionate software developer with a keen interest in creating innovative solutions.
-          My journey in technology began with a fascination for how things work, leading me to pursue a career in software development.
-          I enjoy tackling complex problems and continuously learning new technologies.
-          In my free time, I love contributing to open-source projects and exploring the latest trends in the tech industry.
+          Hi, I am Munish Kumar, a Software Development graduate from AUT with a
+          passion for building practical, user-friendly web applications. My
+          background spans both technology and people — after 22 years as a bus
+          driver delivering reliable service, I retrained in software
+          development to turn my curiosity for technology into a career. I enjoy
+          working with React, Next.js, Node.js, and AWS, and I have built projects
+          ranging from IoT monitoring systems to MERN apps and multiplayer
+          games. My strengths are problem-solving, collaboration, and
+          continuously learning new tools to create scalable solutions. I am now
+          looking to join a forward-thinking team where I can grow as a
+          developer, contribute to real-world projects, and make a meaningful
+          impact through technology.
         </p>
       </div>
     </section>

@@ -175,6 +175,38 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
+
+                {/* Card 7 */}
+                <div className="col-md-4">
+                    <div className="card h-100 shadow">
+                        <img
+                            src="/images/document.png"
+                            className="card-img-top hover-pop"
+                            alt="Java Shopping Project"
+                            style={{
+                                width: "100%",
+                                height: "250px",
+                                objectFit: "contain",
+                                background: "#f8f9fa",
+                            }}
+                        />
+                        <div className="card-body text-start">
+                            <h5 className="card-title">Documentation Website For IoT Project</h5>
+                            <p className="card-text font-colour">
+                                VitePress
+                            </p>
+                            <p className="card-text">
+                                A documentation site built with VitePress for the Adroit Manager Frontend dashboard 
+                            </p>
+                            <a
+                                href="https://github.com/munishk686/Document-Website-for-IoT"
+                                className="btn btn-primary btn-custom"
+                            >
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );

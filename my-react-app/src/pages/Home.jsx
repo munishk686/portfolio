@@ -31,7 +31,7 @@ function Home() {
                         </p>
                         <p>complex technical problems with clean, efficient code.</p>
                         <a
-                            href="/CV.pdf"
+                            href="/FullStack-CV.pdf"
                             download
                             className="btn btn-primary"
                             style={{ fontSize: "0.9rem" }}

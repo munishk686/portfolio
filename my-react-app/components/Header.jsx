@@ -100,7 +100,7 @@ function Header() {
             <li className="nav-item">
               <a
                 className="nav-link active fw-bold"
-                href="/CV.pdf"
+                href="/FullStack-CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={handleNavCollapse}

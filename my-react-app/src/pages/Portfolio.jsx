@@ -60,7 +60,7 @@ function Portfolio() {
                 href="https://github.com/munishk686/CISE_React_book"
                 className="btn btn-primary btn-custom"
               >
-                 View Code
+                View Code
               </a>
             </div>
           </div>
@@ -83,7 +83,7 @@ function Portfolio() {
               <p className="card-text">
                 Created custom game assets and real-time scoreboard.
               </p>
-               <div className="d-flex justify-content-between mt-3">
+              <div className="d-flex justify-content-between mt-3">
                 <a
                   href="https://github.com/munishk686/Adroit-Frontend-Manager"
                   className="btn btn-primary btn-custom"
@@ -129,7 +129,7 @@ function Portfolio() {
                 href="https://github.com/munishk686/JavaFinalProject"
                 className="btn btn-primary btn-custom"
               >
-                 View Code
+                View Code
               </a>
             </div>
           </div>
@@ -162,7 +162,7 @@ function Portfolio() {
                 href="https://github.com/munishk686/cabsOnlineBooking"
                 className="btn btn-primary btn-custom"
               >
-                 View Code
+                View Code
               </a>
             </div>
           </div>
@@ -191,7 +191,7 @@ function Portfolio() {
                 href="https://github.com/munishk686/socialDiarySystem"
                 className="btn btn-primary btn-custom"
               >
-                 View Code
+                View Code
               </a>
             </div>
           </div>
@@ -224,7 +224,7 @@ function Portfolio() {
                 href="https://github.com/munishk686/Document-Website-for-IoT"
                 className="btn btn-primary btn-custom"
               >
-                 View Code
+                View Code
               </a>
             </div>
           </div>

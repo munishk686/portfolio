@@ -15,11 +15,13 @@ function Portfolio() {
             <div className="card-body text-start">
               <h5 className="card-title">IoT Adroit Frontend Manager</h5>
               <p className="card-text font-colour">
-                React, Next JS, AWS, GitHub
+                Next.js, TypeScript, AWS, GitHub
               </p>
               <p className="card-text">
-                Developed and optimized a web application for R&D, to monitor
-                the status and battery health of IoT devices.
+                A web application built with Next.js and TypeScript, hosted on
+                AWS, featuring dashboards to monitor IoT device status and
+                battery health, helping improve efficiency and track
+                performance efficiently.
               </p>
               <div className="d-flex justify-content-between mt-3">
                 <a
@@ -48,16 +50,17 @@ function Portfolio() {
               style={{ width: "100%", height: "250px", objectFit: "cover" }}
             />
             <div className="card-body text-start">
-              <h5 className="card-title">CISE React Book List App</h5>
+              <h5 className="card-title">Speed App</h5>
               <p className="card-text font-colour">
-                MongoDB, Express.js, React, Node.js.
+                MongoDB, Next.js, Node.js, NestJS, TypeScript
               </p>
               <p className="card-text">
-                Developed MERN app with secure user login where Users could add,
-                sort, and fetch book data.
+                A full-stack web platform built with Next.js, NestJS, and
+                MongoDB, featuring user authentication, article submission, and
+                role-based dashboards for analysts, moderators, and admins.
               </p>
               <a
-                href="https://github.com/munishk686/CISE_React_book"
+                href="https://github.com/munishk686/SPEED-APP"
                 className="btn btn-primary btn-custom"
               >
                 View Code
@@ -81,7 +84,9 @@ function Portfolio() {
                 Unity engine, C#, Firebase
               </p>
               <p className="card-text">
-                Created custom game assets and real-time scoreboard.
+                An action-packed multiplayer shooter developed in Unity with C#,
+                featuring custom-designed assets, real-time player tracking, and
+                a Firebase-powered live scoreboard.
               </p>
               <div className="d-flex justify-content-between mt-3">
                 <a

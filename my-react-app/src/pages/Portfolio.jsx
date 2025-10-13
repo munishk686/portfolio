@@ -44,7 +44,7 @@ function Portfolio() {
         <div className="col-md-4">
           <div className="card h-100 shadow">
             <img
-              src="/images/CISA.jpg"
+              src="/images/Speed.png"
               className="card-img-top hover-pop"
               alt="Project One"
               style={{ width: "100%", height: "250px", objectFit: "cover" }}

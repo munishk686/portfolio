@@ -52,19 +52,28 @@ function Portfolio() {
             <div className="card-body text-start">
               <h5 className="card-title">Speed App</h5>
               <p className="card-text font-colour">
-                MongoDB, Next.js, Node.js, NestJS, TypeScript
+                MongoDB, Express.js, React.js, Node.js
               </p>
               <p className="card-text">
-                A full-stack web platform built with Next.js, NestJS, and
+                A full-stack web platform built with React.js, Node.js, and
                 MongoDB, featuring user authentication, article submission, and
                 role-based dashboards for analysts, moderators, and admins.
               </p>
+            <div className="d-flex justify-content-between mt-3">
+
               <a
                 href="https://github.com/munishk686/SPEED-APP"
                 className="btn btn-primary btn-custom"
               >
                 View Code
               </a>
+                <a
+                  href="https://speed-1-juoy.onrender.com"
+                  className="btn btn-primary btn-custom"
+                >
+                  Live Demo
+                </a>
+                </div>
             </div>
           </div>
         </div>

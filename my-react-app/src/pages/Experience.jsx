@@ -14,7 +14,7 @@ function Experience() {
 
                         </h5>
                         <h5 className="text-start text-wrap" style={{ wordBreak: "break-word" }}>
-                            <strong>Bus Driver (Part-time)</strong>
+                            <strong>Professional Driver (Part-time)</strong>
                         </h5>
                         <h6 className="text-start mb-1">Ritchies Transport Ltd.</h6>
                         <ul>

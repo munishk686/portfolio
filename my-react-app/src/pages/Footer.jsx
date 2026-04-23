@@ -41,7 +41,7 @@ function Footer() {
           </div>
         </div>
         <hr className="border-top border-light" />
-        <p className="text-center mb-0">&copy; 2025 Munish Kumar. All rights reserved.</p>
+        <p className="text-center mb-0">&copy; 2026 Munish Kumar. All rights reserved.</p>
       </div>
     </footer>
   );

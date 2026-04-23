@@ -81,6 +81,41 @@ function Portfolio() {
         <div className="col-md-4">
           <div className="card h-100 shadow">
             <img
+              src="/images/summariser.png"
+              className="card-img-top hover-pop"
+              alt="Project One"
+              style={{ width: "100%", height: "250px", objectFit: "cover" }}
+            />
+            <div className="card-body text-start">
+              <h5 className="card-title">AI Text Summariser</h5>
+              <p className="card-text font-colour">
+                {" "}
+                Next.js, OpenAI API key
+              </p>
+              <p className="card-text">
+                An AI-powered text summarisation tool built with Next.js and the OpenAI API, allowing users to quickly generate concise summaries of long texts.
+              </p>
+              <div className="d-flex justify-content-between mt-3">
+                <a
+                  href="https://github.com/munishk686/reactAI"
+                  className="btn btn-primary btn-custom"
+                >
+                  View Code
+                </a>
+                <a
+                  href="https://react-ai-delta-umber.vercel.app/"
+                  className="btn btn-primary btn-custom"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+ {/* Card 3.1 */}
+        <div className="col-md-4">
+          <div className="card h-100 shadow">
+            <img
               src="/images/unity.png"
               className="card-img-top hover-pop"
               alt="Project One"
@@ -99,7 +134,7 @@ function Portfolio() {
               </p>
               <div className="d-flex justify-content-between mt-3">
                 <a
-                  href="https://github.com/munishk686/Adroit-Frontend-Manager"
+                  href="https://github.com/munishk686/COMP602_1_OrangeKoch"
                   className="btn btn-primary btn-custom"
                 >
                   View Code
@@ -114,7 +149,6 @@ function Portfolio() {
             </div>
           </div>
         </div>
-
         {/* Card 4 */}
         <div className="col-md-4">
           <div className="card h-100 shadow">
